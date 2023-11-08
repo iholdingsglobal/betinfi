@@ -1,0 +1,151 @@
+/* Default CSS */
+body, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+* {
+    background-color: #0f212e;
+    font-family: Agbalumo;
+}
+
+/* Navigation bar start  */
+header {
+    background-color: #1a2c38;
+    color: #ffff;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #1a2c38;
+}
+
+.company-name a {
+    font-size: 40px;
+    background-color: #1a2c38;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    background-color: #1a2c38;
+}
+
+.nav-links li {
+    margin-right: 20px;
+    background-color: #1a2c38;
+}
+
+.nav-links a {
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1px;
+    background-color: #1a2c38;
+}
+
+/* Navigation bar ends  */
+
+
+/* Home page center container Starts  */
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+    background-color: #0f212e;
+    color: #fff;
+    flex-direction: column;
+}
+
+.center-container p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.whatsapp-info {
+    display: flex;
+    align-items: center;
+}
+
+.whatsapp-info img {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.whatsapp-number {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Home page center container ends  */
+
+
+/* Info container starts */
+
+#info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    width: 100%; 
+    max-width: 800px; 
+    padding: 0 20px; 
+}
+#info-container {
+    display: flex;
+    justify-content: center;
+}
+
+#info h1{
+    font-size: 50px;
+}
+#info p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+/* Info container ends  */
+
+/* Media Queries Starts */
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .company-name {
+        margin-bottom: 30px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .center-container {
+        height: 60vh;
+        padding: 10px;
+    }
+}
+
+/* Media Queries Starts */
